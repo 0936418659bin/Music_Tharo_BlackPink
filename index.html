@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/img/avatar.png">
+    <link rel="stylesheet" href="assets/css/style_music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <title>Music Black Pink</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-icon hide-mobile">
+            <a href="https://0936418659bin.github.io/Trang_Chu_Tharo_BlackPink/"><i class="ti-arrow-left"></i></a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="music-player">
+            <div class="top">
+                <a href="" class="top-link--category hide-mobile">
+                    <i class="fa-solid fa-chevron-down "></i>
+                </a>
+                <a href="" class="top-link--back hide-pc-tablet">
+                    <i class="ti-arrow-left top-link--back-icon"></i>
+                </a>
+                <span>Minh Hiếu</span>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="box-img">
+                <div class="img-music">
+                    <img src="assets/img/song1.jpg" alt="">
+                </div>
+            </div>
+            <div class="name-music">
+                <div class="name">Kill This Love</div>
+                <div class="artist">Black Pink</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+                <div class="time">
+                    <span class="current">0:00</span>
+                    <span class="duration">3:13</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i id="prev" title="Quay lại bài sau" class="fa-solid fa-backward"></i>
+                <button onclick="musicPlay()" id="play" title="Play">
+                    <i class="fa-solid fa-shadow fa-play"></i>
+                </button>
+                <i id="next" title="Bài tiếp theo" class="fa-solid fa-forward"></i>
+            </div>
+            <div class="volume">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" value="70" onchange="volume_change()" id="volume">
+            </div>
+            <div class="bottom">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <i class="fa-solid fa-repeat"></i>
+                <i id="fa-list" class="fa-solid fa-list"></i>
+            </div>
+        </div>
+        <div class="list-music">
+            <div class="header-music">
+                <div class="left">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Music</span>
+                </div>
+                <i class="fa-solid fa-close"></i>
+            </div>
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
